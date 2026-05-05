@@ -9,6 +9,7 @@
     "build:dev": "vite build --mode development",
     "preview": "vite preview",
     "lint": "eslint .",
+    "build": "vite build && echo '/* /index.html 200' > dist/client/_redirects",
     "format": "prettier --write ."
   },
   "dependencies": {
